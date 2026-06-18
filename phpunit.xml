@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="AsaiPro Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <source>
+        <include>
+            <file>Crud.php</file>
+            <file>Database.php</file>
+            <file>delete.php</file>
+            <file>index.php</file>
+            <file>index1.php</file>
+            <file>modify.php</file>
+            <file>register.php</file>
+        </include>
+    </source>
+</phpunit>
